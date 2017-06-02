@@ -90,3 +90,7 @@ int main1(int argc, char *argv[]) {
     
     return 0;
 }
+
+int main(int argc, char *argv[]) {
+	return main1(argc, argv);
+}

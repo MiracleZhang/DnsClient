@@ -22,6 +22,8 @@
 #include <malloc.h>
 #include <tchar.h>
 
+#pragma comment(lib,"ws2_32.lib")
+
 #define GetSockError() WSAGetLastError()
 #define SetSockError(e) WSASetLastError(e)
 #define setsockopt(a, b, c, d, e) (setsockopt)(a, b, c, (const char *)d, (int)e)
