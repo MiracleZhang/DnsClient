@@ -1,7 +1,14 @@
 # DnsClient
-dns parse ios and win32
 
-parse domain with dns server.
+Code from https://github.com/notatestuser/dnsclient.git. Thank notatestuser.
+
+Add ios platform.
+
+A DNS client with support for querying A, CNAME, NS, MX, PTR and AAAA records.
+Platform: win32, ios. Android need ndk, please see ios and win32.
+
+parse with dns server.
+
 result like:
 
 Looking up www.sina.com using 114.114.114.114...
